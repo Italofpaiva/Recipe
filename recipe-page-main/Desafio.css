@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;500&display=swap');
+
+
+:root {
+    --cor-primaria:#FFF0F5;
+    --cor-secundaria:#8B4513;
+    --cor-terciária: #141313;
+    --cor-quarta: #DCDCDC;
+    --cor-quinta:#222020;
+    
+}
+body{
+    background-color: #FFEFD5;
+    margin: 0;
+    padding: 0;
+}
+
+.borda{
+    background-color: white;
+    padding:2rem;
+    margin: 2rem;
+}
+.imgfirst{
+    margin-left: 0.5%;
+    margin-top: 2rem;
+    border-radius: 1.5%;
+    max-width: 100%; 
+    height: auto;
+}
+.pfirst{
+    margin-bottom: 2rem;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.title{
+    font-size: 70px;
+    margin-left: 0.5%;
+}
+.textfirst{
+    margin-left: 0.5%;
+    font-size: 30px;
+    color:var(--cor-quinta);
+    width: 90%;
+}
+.preparationtime{
+margin-left: 0.5%;
+background-color: var(--cor-primaria);
+height: auto;
+width: 88%;
+margin-bottom: 2rem;
+}
+.titlepreparation{
+    color: 	#800080;
+    font-size: 25px;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    font-family: 'Young Serif', serif;
+
+}
+.listpreparation{
+  padding-bottom: 1.5rem;
+  list-style-type: none;
+  font-family: 'Young Serif', serif;
+}
+.itenlistpreparation{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-family: 'Young Serif', serif;
+}
+.itenlistpreparation:before {
+    content: "•"; 
+    color: #800080; 
+    font-size: 20px; 
+    margin-right: 1rem ; 
+  }
+
+.alistpreparation{
+    font-weight: bold;
+    font-family: 'Young Serif', serif;
+}
+
+.ingredients{
+    background-color: white;
+    width: 94%;
+    margin-left: 0.5%;
+}
+
+
+.titleingredients{
+    margin-bottom: 2rem;
+    font-size: 25px;
+    margin-left: 0.5%;
+    color:var(--cor-secundaria);
+    font-family: 'Young Serif', serif;
+}
+.listigredients{
+    list-style-type: none;
+}
+
+.itenslistingredients{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-family: 'Young Serif', serif;
+}
+
+.itenslistingredients:before {
+    content: "•"; 
+    color: var(--cor-secundaria); 
+    font-size: 20px; 
+    margin-right: 1rem; 
+}
+
+.instructions{
+    background-color: white;
+    width: 94%;
+    margin-left: 0.5%;
+    border-top: 1px solid var(--cor-quarta);
+    margin-top: 20px; 
+    font-family: 'Young Serif', serif;
+}
+
+.titleinstructions{
+    margin-bottom: 2rem;
+    font-size: 25px;
+    margin-left: 0.5%;
+    color:var(--cor-secundaria)
+}
+.listinstructions{
+    margin-bottom: 1rem;
+    list-style-type: none; 
+    counter-reset: my-counter; 
+
+}
+.itenslistinstructions{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    position: relative; 
+}
+.itenslistinstructions:before {
+    content: counter(my-counter) ". "; 
+    counter-increment: my-counter; 
+    position: absolute; 
+    left: -30px; 
+    color: var(--cor-secundaria);
+    font-weight: bold;
+  }
+
+  .aitenslistinstructions{
+    font-weight: bold;
+  }
+.nutrition{
+    font-family: 'Young Serif', serif;
+}
+
+.titlenutrition{
+    margin-bottom: 1rem;
+    font-size: 25px;
+    margin-left: 1%;
+    color:var(--cor-secundaria);
+}
+.textnutrition{
+    margin-bottom: 2rem;
+    margin-left: 1%;
+    font-size: 20px;
+}
+.tabela {
+    width: 95%;
+    border-collapse: collapse;
+    border: white;
+}
+.tabela td {
+    padding: 8px;
+    text-align: left;
+}
+
+.trdivisor{
+    border-bottom: 1px solid var(--cor-quarta);
+}
+
+.tdnumbertable{
+    color:var(--cor-secundaria);
+    font-weight: bold;
+}
+.protein{
+    margin-top: 3rem;
+}
+.rodape{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Young Serif', serif;
+}
+.onename{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+@media screen and (max-width:768px) {
+    .title {
+       font-size: 8vw;
+}
+}
