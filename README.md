@@ -1,3 +1,7 @@
-RECIPE
+# RECIPE
 
-Página feita com HTML E CSS
+## Sobre
+Página de Receita
+
+## Tecnologias Utilizadas
+HTML e CSS
